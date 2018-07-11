@@ -1,41 +1,45 @@
-html {
-  width:100%;
-}
 body {
   width:100%;
-  margin:auto;
-  height:635px;
+  height:635px; /* лучше использовать VH VW единицы измерения, тогда можно */
 }
-ul{
+
+ul {
   list-style:none;
 }
+
 .bird {
   background-image: url(img/headerBackground.jpg);
   background-repeat: no-repeat;
   width:500px;
-  min-height:500px;
-  float:left;
+  min-height:500px; /* лучше использовать VH VW единицы измерения, тогда можно */
+  float:left; /* display: flex / grid, долой float */
   height:100%;
   overflow: hidden;
 }
+
 .right-block {
-  max-width:1420px;
+  max-width:1420px; /* Бессмысленное */
   width:100%;
-  float:right;
-  height:100%;
+  float:right; /* display: flex / grid, долой float */
+  height:100%; /* лучше использовать VH VW единицы измерения, тогда можно */
 }
+
 .right-img {
   background-image:url('img/headerBackgroundBrushes.jpg');
   background-repeat: no-repeat;
-  margin-top:0px;
-  max-height:225px;
-  float:right;
+  margin-top:0px; /* у нулей лучше не писать единицы измерения и все это тоже не нужно */
+  max-height:225px; /* у нулей лучше не писать единицы измерения и все это тоже не нужно */
+  float:right; /* у нулей лучше не писать единицы измерения и все это тоже не нужно */
+  /* посмотри про background size, position, attachment... */
 }
+
+/*  не дальше ясно... */
 .list-top {
   display:flex;
   padding-left:0;
   margin-top:0px;
 }
+
 .list-top a {
   display:flex;
   flex-grow:1;
@@ -44,6 +48,7 @@ ul{
   align-items:center;
   justify-content:center;
 }
+
 .middle-text{
   display:flex;
   flex-grow:1;
@@ -52,25 +57,30 @@ ul{
   align-items:center;
   justify-content:center;
 }
+
 .middle-text div{
   text-align:center;
   font-family: 'Amatic SC', cursive;
 }
+
 hr {
   border: none; 
   color: #FF9400; 
   background-color: #FF9400; 
   height: 1px; 
 }
+
 footer {
   width:100%;
   min-height:100px;
   clear:both;
 }
+
 .list-bottom {
   display:flex;
   padding-left:0;
 }
+
 .list-bottom a{
   background-color:white;
   display:flex;
@@ -79,32 +89,40 @@ footer {
   align-items:center;
   justify-content:center;
 }
+
 a {
   font-family: 'Amatic SC', cursive;
   font-size:1.6em;
 }
+
 .list-top a {
   text-decoration:none;
   color:black;
   border-bottom:1px solid #FFD873	;
 }
+
 .list-top a:hover {
   border-bottom:#FF9400 1px solid;
 }
+
 .list-bottom a {
   text-decoration:none;
   color:black;
   border-bottom:1px solid #FFD873;
 }
+
 .list-bottom a:hover {
   border-bottom:#FF9400 1px solid;
 }
 .one {
+
   font-size:3.7em;
 }
+
 .two {
   font-size:1.7em;
 }
+
 @media (max-width:320px) {
   body {
   width:280px;
@@ -117,6 +135,7 @@ a {
     width:140px;
   } 
 }
+
 @media (max-width:425px) {
   .bird {
     width:425px;
@@ -125,11 +144,13 @@ a {
     width:425px;
   } 
 }
+
 /*@media (max-width:768px) {
   .right-block {
     width:260px;
   }
 }*/
+
 @media (max-width:1024px) {
   .right-block {
     width:520px;
@@ -141,6 +162,7 @@ a {
   max-width:849px;
   }
 }
+
 @media (max-width:2560px) {
   .right-block {
   max-width:2059px;
