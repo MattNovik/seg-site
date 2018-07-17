@@ -1,7 +1,7 @@
 
 body {
   display:flex;
-  width:99vw;
+  width:98vw;
   height:100vh;
   padding:0 5px 5px 5px;
   flex-wrap:wrap;
@@ -63,7 +63,7 @@ ul{
 }
 .middle-text article{
   text-align:center;
-  vetical-align:middle;
+  vertical-align:middle;
   font-family: 'Roboto', sans-serif;
 }
 h1 {
@@ -188,13 +188,21 @@ h3 {
   max-width:100%;
 }
 
+.list-top{
+  display:none;
+  z-index: 100;
+  width: 97vw;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
 .btn-first{
   display:block;
   position: relative;
   overflow: hidden;
   margin: 5px 0 0 0;
   padding: 0;
-  width: 99vw;
+  width: 97vw;
   min-height: 96px;
   font-size: 0;
   text-indent: -9999px;
@@ -203,7 +211,6 @@ h3 {
   border-radius: none;
   border: none;
   cursor: pointer;
-  transition: background 0.3s;
 
 }
 .btn-first span {
@@ -214,7 +221,6 @@ h3 {
   right: 40%;
   height: 8px;
   background: black;
-  transition: background 0s 0.3s;
   transition-delay: 0.3s, 0s;
 }
 .btn-first span::before,
@@ -226,7 +232,7 @@ h3 {
   height: 8px;
   background-color: black;
   content: "";
-  transition-duration: 0.3s, 0.3s;
+  transition-duration: 0.1s, 0.1s;
   transition-delay: 0.3s, 0s;
 }
 .btn-first span::before{
@@ -238,7 +244,7 @@ h3 {
    transition-property: bottom, transform;
 }
 .btn-first:focus {
-  background-color: #cb0032;
+
 }
 .btn-first:focus span {
   left:45%;
@@ -255,7 +261,7 @@ h3 {
 .btn-first:focus span::after {
   bottom: 12px;
   left:-8px;
-  width:41px;;
+  width:41px;
   transform: rotate(-45deg);
 }
 .btn-first:focus span::before,
@@ -269,36 +275,15 @@ h3 {
 
 .list-bottom li:nth-child(1) {
   border-top:1px solid  #FFD873;
-   border-bottom:none;
 }
 .list-bottom li:nth-child(2) {
   border-top:1px solid  #FFD873;
 }
-.list-bottom li:nth-child(3) {
-  border-top:1px solid  #FFD873;
-}
+
 .list-bottom li:nth-child(even) {
   border-left:1px solid  #FFD873;
 }
 
-/*.list-top {
-  display:flex;
-  flex-direction:column;
-  min-height:200px;
-  margin-bottom:5px;
-  
-}*/
-.list-top{
-  display:none;
-  position: absolute;
-  background: #FFFFFF;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
-  z-index: 100;
-  width: 130px;
-  padding: 5px 0 5px;
-  margin: -29px 0 0 -15px;
-}
    .list-bottom {
    flex-wrap:wrap;
 }
