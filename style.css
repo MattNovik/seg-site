@@ -237,29 +237,29 @@ h3 {
   bottom: -20px;
    transition-property: bottom, transform;
 }
-.btn-first:active {
+.btn-first:focus {
   background-color: #cb0032;
 }
-.btn-first:active span {
+.btn-first:focus span {
   left:45%;
   width:60px;
   top:50px;
   transform: rotate(90deg);
 }
-.btn-first:active span::before {
+.btn-first:focus span::before {
   top: 13px;
   left:-8px;
   width:42px;
   transform: rotate(45deg);
 }
-.btn-first:active span::after {
+.btn-first:focus span::after {
   bottom: 12px;
   left:-8px;
   width:41px;;
   transform: rotate(-45deg);
 }
-.btn-first:active span::before,
-.btn-first:active span::after{
+.btn-first:focus span::before,
+.btn-first:focus span::after{
   transition-delay: 0s, 0.3s
 }
 .list-bottom li{
@@ -290,6 +290,14 @@ h3 {
 }*/
 .list-top{
   display:none;
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  z-index: 100;
+  width: 130px;
+  padding: 5px 0 5px;
+  margin: -29px 0 0 -15px;
 }
    .list-bottom {
    flex-wrap:wrap;
