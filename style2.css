@@ -1,0 +1,447 @@
+@media (min-width:1201px){
+header {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100vh;
+}
+.big {
+  display:flex;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100vh;
+}
+h2 {
+  display:none;
+  position:relative;
+  text-align:center;
+  width:100%;
+  height:60px;
+  line-height:60px;
+  margin:0;
+  padding:0;
+  font-size:2.8em;
+}
+.btn {
+  position:absolute;
+  right:20px;
+  top:5px;
+  width:50px;
+  height:45px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+
+}
+.btn span {
+  display:block;
+  position:absolute;
+  width:35px;
+  height:7px;
+  top:19px;
+  left:7px;
+  background:black;
+  transition: background 0s 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+.btn span::before,
+.btn span::after {
+  position:absolute;
+  display:block;
+  width:35px;
+  height:7px;
+  background:black;
+  content:""; 
+}
+.btn span::before{
+  top: -10px;
+}
+.btn span::after{
+  top: 10px;
+}
+.bird-image {
+  min-width:500px;
+  flex-grow:1;
+  background-image:url("https://image.ibb.co/izdkgy/header_Background.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+.right-block {
+  flex-grow:3;
+  background:url("https://image.ibb.co/bX3J1y/header_Background_Brushes.jpg") no-repeat bottom right;
+  margin-left:10px;
+ }
+nav {
+  display:flex;
+}
+nav a {
+  flex-grow:1;
+}
+nav a:hover {
+
+}
+nav a:active {
+  
+}
+nav a:active {
+  
+}
+
+.text {
+  height:calc(100% - 50px);
+  width:100%;
+  text-align:center;
+}
+.HH {
+  position:relative;
+  top:40%;
+  }
+h1 {
+  color:green;
+  font-size:3.0em;
+  margin:0;
+  padding: 0;
+}
+hr {
+  width:45%;
+  height:5px;
+  background-color:black;
+  border:none;
+
+}
+h3 {
+  color:blue;
+  font-size:2.0em;
+  margin:0;
+  padding: 0;
+}
+.menu-bottom {
+  content: "";
+  clear:both;
+  display:flex;
+  flex-grow:1;
+}
+.menu-bottom a {
+  flex-grow:1;
+}
+.menu-bottom a:hover {
+  
+}
+.menu-bottom a:visited {
+  
+}
+.menu-bottom a:active {
+  
+}
+
+a {
+  text-align:center;
+  line-height:49px;
+  text-decoration:none;
+  color:black;
+  border-bottom:1px yellow solid;
+}
+a:hover {
+  border-bottom:green 1px solid;  
+}
+a:active {
+  
+}
+a:visited {
+  
+} 
+}
+
+@media (min-width: 769px) and (max-width:1200px){
+header {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100vh;
+}
+.big {
+  display:flex;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100vh;
+}
+h2 {
+  display:none;
+  position:relative;
+  text-align:center;
+  width:100%;
+  height:60px;
+  line-height:60px;
+  margin:0;
+  padding:0;
+  font-size:2.8em;
+}
+
+.bird-image {
+  min-width:450px;
+  max-width: 500px;
+  flex-grow:1;
+  background-image:url("https://image.ibb.co/izdkgy/header_Background.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+.right-block {
+  flex-grow:2;
+  background:url("https://image.ibb.co/bX3J1y/header_Background_Brushes.jpg") no-repeat bottom right;
+  margin-left:10px;
+}
+nav {
+  display:flex;
+}
+nav a {
+  flex-grow: 1;
+}
+nav a:hover {
+
+}
+nav a:active {
+  
+}
+nav a:active {
+  
+}
+
+.text {
+  height:calc(100% - 50px);
+  width:100%;
+  text-align:center;
+}
+.HH {
+  position:relative;
+  top:40%;
+  }
+h1 {
+  color:green;
+  font-size:3.0em;
+  margin:0;
+  padding: 0;
+}
+hr {
+  width:45%;
+  height:5px;
+  background-color:black;
+  border:none;
+}
+h3 {
+  color:blue;
+  font-size:2.0em;
+  margin:0;
+  padding: 0;
+}
+.menu-bottom {
+  content: "";
+  clear:both;
+  display:flex;
+  flex-grow:1;
+}
+.menu-bottom a {
+  flex-grow:1;
+}
+.menu-bottom a:hover {
+  
+}
+.menu-bottom a:visited {
+  
+}
+.menu-bottom a:active {
+  
+}
+
+a {
+  text-align:center;
+  line-height:49px;
+  text-decoration:none;
+  color:black;
+  border-bottom:1px yellow solid;
+}
+a:hover {
+  border-bottom:green 1px solid;  
+}
+a:active {
+  
+}
+a:visited {
+  
+} 
+}
+@media (max-width:992px){
+
+}
+
+@media (min-width: 577px) and (max-width:768px){
+header {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+.big {
+  display:flex;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  flex-wrap: wrap;
+}
+h2 {
+  position:relative;
+  text-align:center;
+  width:100%;
+  height:60px;
+  line-height:60px;
+  margin:0;
+  padding:0;
+  font-size:2.8em;
+}
+.btn {
+  position:absolute;
+  right:20px;
+  top:5px;
+  width:50px;
+  height:45px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+
+}
+.btn span {
+  display:block;
+  position:absolute;
+  width:35px;
+  height:7px;
+  top:19px;
+  left:7px;
+  background:black;
+  transition: background 0s 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+.btn span::before,
+.btn span::after {
+  position:absolute;
+  display:block;
+  width:35px;
+  height:7px;
+  background:black;
+  content:""; 
+}
+.btn span::before{
+  top: -10px;
+}
+.btn span::after{
+  top: 10px;
+}
+.bird-image {
+  min-width:450px;
+  min-height: 600px;
+  flex-grow:1;
+  background-image:url("https://image.ibb.co/izdkgy/header_Background.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  margin:10px 0 0 0;
+  order:2;
+}
+.right-block {
+  flex-grow:2;
+  background:url("https://image.ibb.co/bX3J1y/header_Background_Brushes.jpg") no-repeat bottom right;
+}
+nav {
+  display:flex;
+  display: none;
+  position: absolute;
+  top:10%;
+  right:10%;
+}
+nav a {
+  flex-grow: 1;
+}
+nav a:hover {
+
+}
+nav a:active {
+  
+}
+nav a:active {
+  
+}
+
+.text {
+  height:calc(100% - 50px);
+  width:100%;
+  text-align:center;
+}
+.HH {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  min-height: 500px;
+}
+h1 {
+  color:green;
+  font-size:3.0em;
+  margin:0;
+  padding: 0;
+}
+hr {
+  width:45%;
+  height:1px;
+  background-color:black;
+}
+h3 {
+  color:blue;
+  font-size:2.0em;
+  margin:0;
+  padding: 0;
+}
+.menu-bottom {
+  content: "";
+  clear:both;
+  display:flex;
+  flex-grow:1;
+}
+.menu-bottom a {
+  flex-grow:1;
+}
+.menu-bottom a:hover {
+  
+}
+.menu-bottom a:visited {
+  
+}
+.menu-bottom a:active {
+  
+}
+
+a {
+  text-align:center;
+  line-height:49px;
+  text-decoration:none;
+  color:black;
+  border-bottom:1px yellow solid;
+}
+a:hover {
+  border-bottom:green 1px solid;  
+}
+a:active {
+  
+}
+a:visited {
+  
+} 
+}
+
+@media (max-width:576px){
+  
+}
